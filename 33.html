@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>33</title>
+    <link rel="stylesheet" type="text/css" href="33.css">
+    <script src="xxxx.js"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+ <header>
+     <p>2019-33</p>
+</header>
+    
+<div class="menu">
+    <ul>
+    <li id="menu1"><a href="#">menu1</a></li>
+    <li><a href="#">menu2</a></li>
+    <li><a href="#">menu3</a></li>
+    <li><a href="#">menu4</a></li>
+    <li><a href="#">menu5</a></li>    
+    </ul>
+</div>   
+
+  
+   
+<div class="center">
+    <div class="photo-area">
+    <img id="pic" src="33p3.jpg">
+    </div> 
+</div>
+
+<div class="btn">    
+ <button onclick="prev();">←</button>     
+ <button onclick="next();">→</button>   
+</div>
+    
+    
+<div id="footer">
+    <div class="f1">
+    <address>Great North Rd, Western Springs, Auckland 1022</address>
+    </div> 
+    <div class="f2">
+    <address>TEL: 0120 (+)64 3091 7711</address>
+    </div>
+</div>   
+    
+    
+<script>
+
+    const images =["33p1.jpg", "33p2.jpg", "33p3.jpg"];
+        
+        
+    const next=()=>{
+         document.getElementById('pic').src='33p1.jpg';
+        };
+    
+    const prev=()=>{
+        document.getElementById('pic').src='33p2.jpg';
+    };
+    
+    
+    </script>    
+</body>
+</html>
